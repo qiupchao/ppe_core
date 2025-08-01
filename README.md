@@ -1,3 +1,7 @@
+##### [PPE白皮书 中文](https://blog.csdn.net/Practicer2015/article/details/149813742?spm=1001.2014.3001.5501)
+
+[PPE白皮书 英文](https://pingtougl.blogspot.com/2025/07/draft-white-paper-on-prompt-enhancement.html)
+
 ## PEE框架简介
 
 **提示词增强工程（PEE）框架**是一个模块化的原型系统，旨在将“提示词增强工程”的理念付诸实践。它将一个复杂的任务分解为六个相互独立又协作的模块，实现了从原始提示词到结构化增强、LLM执行、评估和数据持久化的完整自动化流程。
@@ -281,4 +285,6 @@ self.enhancer = EnhancementEngine(strategies=[
 - **Web API 接口：** 使用 FastAPI 或 Flask 封装核心引擎，提供一个 RESTful API 服务。
 - **用户界面：** 开发一个简单的 Web UI，让用户可以输入提示词，并可视化看到增强和评估过程。
 - **优化循环：** 开发一个自动反馈循环，根据评估结果自动调整增强策略，实现自我优化。
+
+
 
